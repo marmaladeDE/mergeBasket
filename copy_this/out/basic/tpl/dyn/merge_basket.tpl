@@ -3,7 +3,7 @@
 	<!--<button onClick="jQuery('#merge_basket').remove();" style="float: right;">X</button>-->	
 	<h2>[{ oxmultilang ident="BASKETMERGE_HEAD" }]</h2>
 	<p>[{ oxmultilang ident="BASKETMERGE_DESC" }]</p>
-	<form action="/index.php?cl=basket&fnc=mergeBasket" method="get">
+	<form action="[{ $oViewConf->getBasketLink()}]&fnc=mergeBasket" method="get">
 	<input type="hidden" name="cl" value="basket" />
 	<input type="hidden" name="fnc" value="mergeBasket" />
 	<ul>
