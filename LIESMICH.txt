@@ -1,33 +1,33 @@
 INSTALLATION
 
-- backup your shop and database
-- copy files/folders from 'copy_this' in your shop-directory
-- add the following module-entries to configuration
+- Backup von Shop und Datenbank erstellen
+- kopieren von Dateien/Ordner aus copy_this in Shop-Ordner
+- Modul config eintragen:
 
 oxbasket => marm/basketmerge/basketmerge_oxbasket
 oxcmp_shop => marm/basketmerge/basketmerge_oxcmp_shop
 oxcmp_basket => marm/basketmerge/basketmerge_oxcmp_basket
 
-adjust template
+Templates anpassen
 - basic-theme
- _header.tpl insert after <body>
+ _header.tpl bearbeiten, nach <body>
 
  [{if $hasSaveBasket}]
     	[{oxid_include_dynamic file="dyn/merge_basket.tpl" }] 
     [{/if}]
 
 - azure-theme
- layout/base.tpl insert after <body>
+ layout/base.tpl bearbeiten, nach <body>
 
     [{oxid_include_dynamic file="../../../modules/marm/basketmerge/out/blocks/merge_basket.tpl" }] 
 
-- Oxid 4.4 needs jQuery or template adjustment
+- Oxid 4.4 braucht jQuery bzw. Template noch anpassen
 
-- Oxid 4.5 JS (z.B. oxminibasket.js) insert following line after "$.widget( "ui.oxMiniBasket", oxMiniBasket );" :
+- Oxid 4.5 JS (z.B. oxminibasket.js) folgende Zeile einfügen nach "$.widget( "ui.oxMiniBasket", oxMiniBasket );" :
 
     jQuery( "#merge_basket" ).draggable();
 
-- IMPORTANT: delete cookie 
+- WICHTIG: Cookie löschen 
 
 HAVE FUN!
     
