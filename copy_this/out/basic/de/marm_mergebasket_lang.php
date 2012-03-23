@@ -14,9 +14,9 @@ $aLang = array(
 
 'charset' => 'ISO-8859-15',
 'BASKETMERGE_HEAD'									=> 'Warenkorb laden',
-'BASKETMERGE_DESC'									=> 'Sie hatte beim letzten mal folgende Artikel im Warenkorb. Bitte wählen Sie, welche sie in Ihrem aktuellen Warenkorb hinzufügen möchten:',
-'BASKETMERGE_ADD'									=> 'hinzufügen',
-'BASKETMERGE_REMOVE'								=> 'nicht hinzufügen',
+'BASKETMERGE_DESC'									=> 'Sie hatte beim letzten mal folgende Artikel im Warenkorb. Bitte w&auml;hlen Sie, welche sie in Ihrem aktuellen Warenkorb hinzuf&uuml;gen m&ouml;chten:',
+'BASKETMERGE_ADD'									=> 'hinzuf&uuml;gen',
+'BASKETMERGE_REMOVE'								=> 'nicht hinzuf&uuml;gen',
 );
 
 /*
