@@ -48,7 +48,7 @@ class basketmerge_oxcmp_basket extends basketmerge_oxcmp_basket_parent{
   		unset($oBasket);
         if($redirect)
         {
-            $redirectUrl = $this->getConfig()->getShopUrl().'index.php?cl=basket';
+            $redirectUrl = $this->getConfig()->getShopUrl().'index.php?cl=user';
             oxUtils::getInstance()->redirect( $redirectUrl, true, 302 );
         }
   	}

@@ -10,14 +10,16 @@ $sMetadataVersion = '1.0';
  */
 $aModule = array(
     'id'           => 'basketmerge',
-    'title'        => 'marmalade.de mergeBasket',
+    'title'        => 'marmalade.de :: mergeBasket',
     'description'  => 'Shows user the previously added products in checkout',
     'version'      => '1.1.0',
     'author'       => 'marmalade.de :: Joscha Krug',
     'url'          => 'http://www.marmalade.de',
     'email'        => 'mail@marmalade.de',
     'extend'       => array(
-        'oxfile'       => 'marmalade/libridigital/marm_libridigital_oxfile',
+        'oxbasket'      => 'marm/basketmerge/basketmerge_oxbasket',
+        'oxcmp_shop'    => 'marm/basketmerge/basketmerge_oxcmp_shop',
+        'oxcmp_basket'  => 'marm/basketmerge/basketmerge_oxcmp_basket',
     ),
     'files' => array(
     ),
