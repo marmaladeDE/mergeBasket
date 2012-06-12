@@ -1,5 +1,11 @@
 INSTALLATION
 
+### WICHTIG ###
+Das Modul erfordert den IonCube Loader auf ihrem Server.
+Diesen können Sie hier kostenlos laden:
+http://www.ioncube.com/loaders.php
+### / WICHTIG ###
+
 - Backup von Shop und Datenbank erstellen
 - kopieren von Dateien/Ordner aus copy_this in Shop-Ordner
 - Modul config eintragen:
