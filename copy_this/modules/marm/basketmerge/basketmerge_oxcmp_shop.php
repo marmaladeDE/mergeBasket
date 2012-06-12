@@ -8,7 +8,8 @@ class basketmerge_oxcmp_shop extends basketmerge_oxcmp_shop_parent{
   */
   public function render()
   {
-  	parent::render();
+  	$this->oActShop = parent::render();
+  	
   	$oParentView = $this->getParent();
     /* @var $oUser oxUser */  	
   	$oUser = $this->getUser();

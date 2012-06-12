@@ -12,10 +12,14 @@ $iLangNr    = 1;
 // RESOURCE IDENTITFIER = STRING
 // -------------------------------
 $aLang = array(
-'BASKETMERGE_HEAD'									=> 'Merge Basket',
-'BASKETMERGE_DESC'									=> 'add the following products to basket',
-'BASKETMERGE_ADD'									=> 'add',
-'BASKETMERGE_REMOVE'								=> 'dont add',
+	'charset' => 'ISO-8859-15',
+	'BASKETMERGE_HEAD'									=> 'Your Saved Basket',
+	'BASKETMERGE_DESC'									=> 'During your last visit you have stored these products.<br />Would you like to add these Products?',
+	'BASKETMERGE_ADD'									=> 'Yes, all selected',
+	'BASKETMERGE_ADD_TITLE'								=> 'Yes, add all selected.',
+	'BASKETMERGE_REMOVE'								=> 'No, add nothing',
+	'BASKETMERGE_REMOVE_TITLE'							=> 'Add none!',
+	'BASKETMERGE_SELECT_ALL'						    => 'select all',
 );
 /*
 [{ oxmultilang ident="GENERAL_YOUWANTTODELETE" }]
