@@ -8,8 +8,8 @@
 	<form action="[{ $oViewConf->getSslSelfLink()}]" method="post">
 	<input type="hidden" name="cl" value="[{$oView->getClassName()}]" />
 	<input type="hidden" name="fnc" value="mergeBasket" />
-	<input class="submitButton mbadd" type="submit" name="add" value="[{ oxmultilang ident="BASKETMERGE_ADD" }]" title="[{ oxmultilang ident="BASKETMERGE_ADD_TITLE" }]"/>
-    <input class="submitButton mbrm" type="submit" name="remove" id="mbremovebutton" value="[{ oxmultilang ident="BASKETMERGE_REMOVE" }]"  title="[{ oxmultilang ident="BASKETMERGE_REMOVE_TITLE" }]"/>  
+	<input class="submitButton mbadd" type="submit" name="add" style="color:white;" value="[{ oxmultilang ident="BASKETMERGE_ADD" }]" title="[{ oxmultilang ident="BASKETMERGE_ADD_TITLE" }]"/>
+    <input class="submitButton mbrm" type="submit" name="remove" style="color:white;" id="mbremovebutton" value="[{ oxmultilang ident="BASKETMERGE_REMOVE" }]"  title="[{ oxmultilang ident="BASKETMERGE_REMOVE_TITLE" }]"/>  
     <br />
     <br />	
 	<table>
@@ -27,11 +27,11 @@
                 <td class="mbimg">
 					<img src="[{$oArticle->getIconUrl()}]" title="[{$oArticle->oxarticles__oxtitle}]" />
                 </td>
-                <td class="mbamount">
+                <td class="mbamount" style="vertical-align:top">
                     <input type="checkbox" name="merge_check[[{$sKey}]]" class="mergebasketcheck" value="1" checked="checked"/>
                     <input type="hidden" name="merge_amount[[{$sKey}]]" class="mergebasketamount" value="[{$oItem->oxuserbasketitems__oxamount->value }]"/>
                 </td>
-                <td class="mbtitle">
+                <td class="mbtitle" style="vertical-align:top">
                     <span class="mergebaskettitle">[{$oArticle->oxarticles__oxtitle}]</span>
                 </td>
             </tr>
