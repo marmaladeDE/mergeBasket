@@ -9,14 +9,15 @@ oxcmp_shop => marm/basketmerge/basketmerge_oxcmp_shop
 oxcmp_basket => marm/basketmerge/basketmerge_oxcmp_basket
 
 Templates anpassen
-- basic-theme
+
+### basic Theme ###
  _header.tpl bearbeiten, nach <body>
 
  [{if $hasSaveBasket}]
     	[{oxid_include_dynamic file="dyn/merge_basket.tpl" }] 
     [{/if}]
 
-- azure-theme
+### azure Theme ###
  layout/base.tpl bearbeiten, nach <body>
 
     [{oxid_include_dynamic file="../../../modules/marm/basketmerge/out/blocks/merge_basket.tpl" }] 

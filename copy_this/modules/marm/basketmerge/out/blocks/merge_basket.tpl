@@ -1,4 +1,5 @@
 [{capture append="oxidBlock_pagePopup"}]
+[{oxscript include="js/widgets/marmmergebasket.js"}]
 [{if $hasSaveBasket}]
 	<div id="merge_basket" class="FXgradGreyLight corners loginForm" style="width: 500px; position: absolute; top: 30%; left:50%; z-index:2000; margin-left: -250px; padding: 10px;">
 	<button onClick="jQuery('#merge_basket').remove();" style="float: right;">X</button>
